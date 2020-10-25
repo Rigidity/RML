@@ -1,6 +1,6 @@
 {
   "name": "zyne-rml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A markup plugin for generating HTML with Zyne.",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "author": "Rigidity",
   "license": "MIT",
   "peerDependencies": {
-    "zyne": "0.x"
+    "zyne": "1.x"
   }
 }

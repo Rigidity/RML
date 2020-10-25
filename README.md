@@ -1,6 +1,12 @@
 # RML Plugin
 This is a plugin for Zyne that generates HTML with a simple template system. You can create your own templates, call them, and define elements with properties and CSS attributes all in the same language. And since it uses Zyne, you can also use advanced features like inserting JavaScript code on the generator at compile time, which allows for database access and more, all inline. This will be implemented as a view engine in a later version, but for now you can use it to convert Zyne source files to HTML files.
 
+## Dependencies
+You need to have the following modules installed to use this plugin.
+* `zyne 1.x`  
+* `cheerio`  
+* `pretty`  
+
 ## Example Usage
 
 ```css
