@@ -97,8 +97,8 @@ module.exports = new Plugin()
 		else return text;
 	})
 	.on('color', (ctx, text, block) => {
-		if (block) ctx(`${ctx._element()}.html(${ctx._element()}.html() + ${text});`);
-		else return text;
+		if (block) ctx(`${ctx._element()}.html(${ctx._element()}.html() + '${text}');`);
+		else return `'${text}'`;
 	})
 	.on('boolean', (ctx, text, block) => {
 		if (block) ctx(`${ctx._element()}.html(${ctx._element()}.html() + ${text});`);
