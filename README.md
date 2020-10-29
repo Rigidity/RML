@@ -9,7 +9,9 @@ You need to have the following modules installed to use this plugin.
 
 ## Example Usage
 
-```css
+```scss
+@rml
+
 // Clear margin and padding
 margin: 0px;
 padding: 0px;
