@@ -111,9 +111,5 @@ module.exports = new Plugin()
 	.on('stop', ctx => {
 		ctx(`${ctx._pretty}(${ctx._root}.html())`);
 	})
-	.set('head', (ctx, args, blocks) => {
-		ctx._elements.push(ctx._head);
-		blocks[0]?.();
-		ctx._elements.pop();
-	})
+	.set('
 ;
